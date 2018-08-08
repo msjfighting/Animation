@@ -1,0 +1,16 @@
+//
+//  MacroHeader.pch
+//  Animation
+//
+//  Created by zlhj on 2018/8/1.
+//  Copyright © 2018年 zlhj. All rights reserved.
+//
+
+#ifndef MacroHeader_pch
+#define MacroHeader_pch
+
+#define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight  [[UIScreen mainScreen] bounds].size.height
+#define iOS9 [[[UIDevice currentDevice] systemVersion] floatValue] < 9.0
+#define ANGLE_TO_RADIAN(angle) ((angle)/180.0 * M_PI)
+#endif /* MacroHeader_pch */
