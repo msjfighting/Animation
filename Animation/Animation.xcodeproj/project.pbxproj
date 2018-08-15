@@ -27,6 +27,8 @@
 		E075FEB5211ACD19001FE2A6 /* praise_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E075FEB0211ACD19001FE2A6 /* praise_select@3x.png */; };
 		E075FEB6211ACD19001FE2A6 /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = E075FEB1211ACD19001FE2A6 /* sparkle.png */; };
 		E075FEB7211ACD19001FE2A6 /* praise_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E075FEB2211ACD19001FE2A6 /* praise_default@2x.png */; };
+		E07A66EF2123CC8D00A67BC1 /* ElasticTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E07A66EE2123CC8D00A67BC1 /* ElasticTableView.m */; };
+		E07A66F22123D60600A67BC1 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E07A66F02123D60600A67BC1 /* UIGestureRecognizer+Block.m */; };
 		E07B6EC9211AD09300467C25 /* TranstionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E07B6EC8211AD09300467C25 /* TranstionVC.m */; };
 		E07B6ECC211AD30700467C25 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E07B6ECA211AD30700467C25 /* 2.jpg */; };
 		E07B6ECD211AD30700467C25 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E07B6ECB211AD30700467C25 /* 1.jpg */; };
@@ -86,6 +88,10 @@
 		E075FEB0211ACD19001FE2A6 /* praise_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise_select@3x.png"; sourceTree = "<group>"; };
 		E075FEB1211ACD19001FE2A6 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
 		E075FEB2211ACD19001FE2A6 /* praise_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise_default@2x.png"; sourceTree = "<group>"; };
+		E07A66ED2123CC8D00A67BC1 /* ElasticTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticTableView.h; sourceTree = "<group>"; };
+		E07A66EE2123CC8D00A67BC1 /* ElasticTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElasticTableView.m; sourceTree = "<group>"; };
+		E07A66F02123D60600A67BC1 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		E07A66F12123D60600A67BC1 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
 		E07B6EC7211AD09300467C25 /* TranstionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranstionVC.h; sourceTree = "<group>"; };
 		E07B6EC8211AD09300467C25 /* TranstionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranstionVC.m; sourceTree = "<group>"; };
 		E07B6ECA211AD30700467C25 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -156,8 +162,12 @@
 				E075FEA6211974D1001FE2A6 /* HeartView.m */,
 				E075FEA8211ABA18001FE2A6 /* FireWorksView.h */,
 				E075FEA9211ABA18001FE2A6 /* FireWorksView.m */,
+				E07A66ED2123CC8D00A67BC1 /* ElasticTableView.h */,
+				E07A66EE2123CC8D00A67BC1 /* ElasticTableView.m */,
 				E075FEAB211AC6CC001FE2A6 /* PraiseButton.h */,
 				E075FEAC211AC6CC001FE2A6 /* PraiseButton.m */,
+				E07A66F12123D60600A67BC1 /* UIGestureRecognizer+Block.h */,
+				E07A66F02123D60600A67BC1 /* UIGestureRecognizer+Block.m */,
 				E06E78F7211183D8002DF844 /* Main.storyboard */,
 				E07B6ECB211AD30700467C25 /* 1.jpg */,
 				E07B6ECA211AD30700467C25 /* 2.jpg */,
@@ -333,11 +343,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06E7925211188E3002DF844 /* DragCollectionVC.m in Sources */,
+				E07A66EF2123CC8D00A67BC1 /* ElasticTableView.m in Sources */,
 				E06E792F2112F761002DF844 /* UIView+Animation.m in Sources */,
 				E06E79292112DDA5002DF844 /* AnimationController.m in Sources */,
 				E07B6EC9211AD09300467C25 /* TranstionVC.m in Sources */,
 				E06E792C2112E8D1002DF844 /* CAAnimationVC.m in Sources */,
 				E06E78F6211183D8002DF844 /* ViewController.m in Sources */,
+				E07A66F22123D60600A67BC1 /* UIGestureRecognizer+Block.m in Sources */,
 				E075FEA7211974D1001FE2A6 /* HeartView.m in Sources */,
 				E06E7901211183E4002DF844 /* main.m in Sources */,
 				E075FEAD211AC6CC001FE2A6 /* PraiseButton.m in Sources */,
