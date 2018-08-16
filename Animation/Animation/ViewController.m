@@ -12,6 +12,7 @@
 #import "CAAnimationVC.h"
 #import "TranstionVC.h"
 #import "ElasticTableView.h"
+#import "ThreeDViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView * tableview;
 @property (nonatomic,strong) NSArray * dataArr;
@@ -21,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArr = @[@"基础动画(CABaseAnimation)",@"关键帧动画(CAKeyframeAnimation)",@"组动画(CAAnimationGroup)",@"过渡动画(CATransition)",@"collectionview拖拽并抖动",@"tableview的收缩"];
+    self.dataArr = @[@"基础动画(CABaseAnimation)",@"关键帧动画(CAKeyframeAnimation)",@"组动画(CAAnimationGroup)",@"过渡动画(CATransition)",@"collectionview拖拽并抖动",@"tableview的收缩",@"3D立方体动画"];
     [self.view addSubview:self.tableview];
 }
 - (UITableView *)tableview{
@@ -76,6 +77,10 @@
     }
     if (indexPath.row == 5) {
         ElasticTableView *vc = [[ElasticTableView alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 6) {
+        ThreeDViewController *vc = [[ThreeDViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
